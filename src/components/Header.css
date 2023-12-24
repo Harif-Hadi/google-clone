@@ -1,0 +1,133 @@
+header {
+  display: flex;
+  padding: 1.5rem 4rem 0.8rem 4rem;
+  border-bottom: 1px solid #3c4043;
+}
+
+.left_side-container {
+  width: 100%;
+}
+
+.search {
+  width: 30%;
+}
+
+.search input {
+  width: 100%;
+}
+
+.left_side {
+  display: flex;
+}
+
+.left_side-image {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left_side-image img {
+  width: 6rem;
+}
+
+.left_side-container input {
+  padding: 10px 15px;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  color: whitesmoke;
+  border-radius: 5rem;
+  background-color: #303134;
+  border: none;
+  width: 100%;
+}
+
+.left_side-container input:focus {
+  outline: none;
+}
+
+.image_container img {
+  height: 2.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.toggle_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toggledProfile {
+  position: absolute;
+  text-align: center;
+  margin-top: 9rem;
+  right: 4%;
+  background-color: whitesmoke;
+  padding: 1rem;
+  color: #000;
+  border-radius: 7px;
+}
+
+.toggledProfile h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.toggledProfile button {
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 7px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.toggledProfile button:hover {
+  background-color: rgba(205, 204, 204, 20%);
+}
+
+@media (min-width: 870px) {
+  .search {
+    width: 45%;
+  }
+}
+
+@media (max-width: 860px) {
+  .search {
+    width: 50%;
+  }
+}
+
+@media (max-width: 520px) {
+  header {
+    padding: 1.5rem 1rem 0.8rem 1rem;
+  }
+
+  .left_side-image img {
+    width: 4.5rem;
+  }
+
+  .search {
+    width: 45%;
+  }
+
+  .left_side-container input {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .search {
+    width: 45%;
+  }
+
+  .search input {
+    margin-left: 0.8rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .search {
+    width: 38%;
+  }
+}

@@ -1,0 +1,31 @@
+.sign_up-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_up_content {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+}
+
+.sign_up_content h2 {
+    font-weight: 400;
+}
+
+.sign_up_content button {
+    padding: 1rem 5rem;
+    font-size: 1.05rem;
+    background: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.sign_up_content button:hover {
+    background-color: rgba(205, 204, 204, 20%);
+}
