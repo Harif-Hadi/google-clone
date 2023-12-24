@@ -5,8 +5,8 @@ const useSearch = () => {
   const [error, setError] = useState(false);
   const [data, setData] = useState(null);
 
-  const api_key = "AIzaSyBTNBH6sJzo4cG9GwIPdDjzsVvZhL2bx4U";
-  const context_key = "00680dfa99c0a4ede";
+  const api_key = import.meta.env.VITE_API_KEY;
+  const context_key = import.meta.env.VITE_CONTEXT_KEY;
 
   const fetchDataHandler = async (term) => {
     try {
